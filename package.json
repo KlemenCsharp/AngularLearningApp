@@ -18,9 +18,15 @@
     "@angular/platform-browser": "~13.2.0",
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
+    "@progress/kendo-angular-icons": "^0.4.5",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "@progress/kendo-angular-common": "^2.0.0",
+    "@progress/kendo-licensing": "^1.0.2",
+    "@progress/kendo-svg-icons": "^0.1.2",
+    "@angular/localize": "~13.2.0",
+    "@progress/kendo-theme-default": "^5.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.2.0",
