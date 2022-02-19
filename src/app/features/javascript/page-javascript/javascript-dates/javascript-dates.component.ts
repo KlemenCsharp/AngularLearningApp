@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./javascript-dates.component.scss']
 })
 export class JavascriptDatesComponent implements OnInit {
+  currentDate?: Date;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  getCurrentDate() {
+    this.currentDate = new Date();
   }
 
 }
